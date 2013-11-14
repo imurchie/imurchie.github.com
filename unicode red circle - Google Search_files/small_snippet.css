@@ -1,0 +1,117 @@
+
+/* SMALL */
+
+.evernote-snippet-noteBlock * {
+    font-family: Helvetica,serif !important;
+}
+
+.evernote-snippet-noteBlock {
+    font-family: Helvetica,serif !important;
+    cursor: pointer;
+    position: relative;
+}
+
+.evernote-snippet-noteBlock h1 {
+    margin: 0 0 7px 0;
+    font-size: 13px;
+    line-height: 15px;
+    height: 30px;
+    overflow: hidden;
+    font-weight: bold;
+    color: #000000;
+}
+
+.evernote-snippet-noteBlock p {
+    margin: 0;
+    font-size: 11px;
+    line-height: 16px;
+    color: #808080;
+}
+
+.evernote-snippet-noteBlock p.date {
+    color: #518C94 !important;
+    font-style: italic;
+}
+
+.evernote-snippet-noteBlock p.snippettext {
+    height: 112px;
+    overflow: hidden;
+}
+
+.evernote-snippet-noteBlock p.mixed {
+    height: 48px;
+    overflow: hidden;
+}
+
+.evernote-snippet-noteBlock img {
+    max-width: 110px;
+    max-height: 110px;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.evernote-snippet-noteBlock img.smallimage {
+    max-width: 60px;
+    max-height: 60px;
+    margin-top: 3px;
+}
+
+.evernote-snippet-notebookName, .evernote-snippet-contactName {
+    font-family: Helvetica;
+    font-size: 13px;
+    color: #ADACAC;
+    font-weight: bold;
+    margin: 3px 0 0 2px;
+    padding-left: 21px;
+    background: no-repeat 6px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 120px;
+}
+
+.evernote-snippet-notebookName {
+    background: url("resource://evernote_images/notebook.png") no-repeat 1px;
+    background-size: 11px 12px;
+}
+
+.evernote-snippet-contactName {
+    background: url("resource://evernote_images/head_shoulders.png") no-repeat 0 2px;
+    background-size: 10px 11px;
+}
+
+/* LAYOUT */
+
+.evernote-snippet-noteBlock {
+    width: 136px;
+    height: 180px;
+    background-color: white;
+}
+
+.evernote-snippet-noteBlock div.snippet {
+    width: 110px;
+    margin-left: -1px;
+    padding: 6px 10px 0px 10px;
+    float: left;
+    position: absolute;
+}
+
+/* LINES */
+
+.evernote-snippet-noteBlock div.gridheader {
+    height: 38px;
+    border-bottom: 1px solid rgba(252, 66, 8, .2);
+}
+
+.evernote-snippet-noteBlock div.gridbody {
+    height: 15px;
+    border-bottom: 1px solid rgba(93, 196, 243, .2);
+}
+
+.evernote-snippet-noteBlock div.leftmargin {
+    height: 180px;
+    position: relative;
+    left: 10px;
+    float: left;
+    border-left: 1px solid rgba(93, 196, 243, .2);
+}

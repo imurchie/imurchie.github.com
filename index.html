@@ -1,33 +1,16 @@
-<!-- Inspired by Naz Hamid. www.nazhamid.com -->
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head> 
-	
+<head>
+
 	<title>Isaac Murchie—Personal Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="pragma" content="no-cache">
 	<meta name="robots" content="all">
 	<meta name="MSSmartTagsPreventParsing" content="true">
 	<meta http-equiv="imagetoolbar" content="false">
 	<link rel="shortcut icon" href="favicon.ico" >
-	<style>
-	* { padding: 0; margin: 0; }
-	p { color: #fff; font-family: Helvetica; font-size: 80%; line-height: 20px; margin-bottom: 15px; -webkit-font-smoothing: antialiased; }
-#about a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 0px solid rgb(15, 58, 45); }
-#about a:hover { text-decoration: none; color: #888; border-bottom: 1px solid rgb(15, 58, 45); text-shadow: none; }
-#logo { width: 50px; margin: 0; position: fixed; right: 50px; top: 50px;}
-#about { width: 400px; padding: 50px 0 0 30px; margin: 0 auto 0 50px !important;}
-h1 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; margin-bottom: 20px; line-height: 130%; color: #000; text-shadow: none;}
-ul#connect{white-space:nowrap;width: 400px; padding: 10px 0 0 20px; margin: 0 auto 0 50px !important;}
-#connect li{display:inline;list-style-type:none;}
-#connect a{text-decoration: none;padding:3px 5px;border-style: none;}
-#connect a:link,#navlist a:visited{text-decoration: none;opacity:0.2;border-style: none;}
-#connect a:hover{text-decoration: none;opacity:0.4;border-style: none;}
-#connect img {border:none;}
-span{color:#333;}
-	</style>
+	<link href="./style.css" rel="stylesheet" type="text/css">
 <!--[if IE]>
 <meta http-equiv="refresh" content="0;url=http://www.timlum.com/index.php/bio/ie">
 <![endif]-->
@@ -43,29 +26,35 @@ span{color:#333;}
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>	
-</head>	
-    
-<body>
-	<div id="about">
-		<p>Hi, I'm Isaac Murchie. I am a PhD candidate in Sanskrit poetry and poetics in the <a href="http://sseas.berkeley.edu/">Department of South and Southeast Asian Studies</a> at the <a href="http://www.berkeley.edu/index.html">University of California, Berkeley</a>. My dissertation, entitled "Crimes Against Aesthetics: Pattern Poetry (<it>Citra-kāvya</it>) in Sanskrit literary culture," looks at structural and algorithmic figures of speech as an evolving phenomenon in the Sanskrit literary world, and asks how these figures, which fundamentally contradict the dominant aesthetic theories of the day, affect what poetry is and how it is approached.</p>
-		
-		<p>I am also a software developer, interested in how computers can be harnessed to allow people to manage and disseminate their interests and the bodies of knowledge those interests generate.</p>
-		
-		<p><span>Personal Page credit goes to <a href="http://nazhamid.com/">Naz Hamid</a> over at <a href="http://weightshift.com/">Weightshift</a>.<span></p>
-		
-	</div>	<ul id="connect">
-		<li><a href="http://twitter.com/imurchie"><img src="./twitter.png"></a></li>
-		<li><a href="http://www.flickr.com/imurchie"><img src="./flickr.png"></a></li>
-		<li><a href="http://www.github.com/imurchie"><img src="./github.png"></a></li>
-		<li><a href="http://www.linkedin.com/pub/isaac-murchie/0/520/685"><img src="./linkedin.png"></a></li>
-		<li><a href="mailto:imurchie@gmail.com"><img src="./email.png"></a></li>
-		</ul>
+</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./jquery.backstretch.js"></script>
+</head>
 
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="./jquery.backstretch.js"></script>
+<body>
+	<div id="header">
+		<h1>Isaac A. Murchie</h1>
+	</div>
+	<div id="about">
+		<p>Hi, I'm Isaac Murchie. I am a software engineer. interested in how computers can be harnessed to allow people to manage and disseminate their interests and the bodies of knowledge those interests generate.</p>
+
+		<p>I am a PhD candidate in Sanskrit poetry and poetics in the <a href="http://sseas.berkeley.edu/">Department of South and Southeast Asian Studies</a> at the <a href="http://www.berkeley.edu/index.html">University of California, Berkeley</a>. My dissertation, entitled "Crimes Against Aesthetics: Pattern Poetry (<it>Citra-kāvya</it>) in Sanskrit literary culture," looks at structural and algorithmic figures of speech as an evolving phenomenon in the Sanskrit literary world, and asks how these figures, which fundamentally contradict the dominant aesthetic theories of the day, affect what poetry is and how it is approached.</p>
+
+		<!-- <p><span>Personal Page credit goes to <a href="http://nazhamid.com/">Naz Hamid</a> over at <a href="http://weightshift.com/">Weightshift</a>.<span></p> -->
+
+	</div>
+	<div>
+		<ul id="connect">
+			<li><a href="http://twitter.com/imurchie"><img src="./twitter.png"></a></li>
+			<li><a href="http://www.flickr.com/imurchie"><img src="./flickr.png"></a></li>
+			<li><a href="http://www.github.com/imurchie"><img src="./github.png"></a></li>
+			<li><a href="http://www.linkedin.com/pub/isaac-murchie/0/520/685"><img src="./linkedin.png"></a></li>
+			<li><a href="mailto:imurchie@gmail.com"><img src="./email.png"></a></li>
+		</ul>
+	</div>
+
 	<script type="text/javascript">
-		$.backstretch("./MathsLibrary.jpg", {speed: 150});
+		$.backstretch("./napa.jpg", {speed: 150});
 	</script>
-	
+
 </body></html>

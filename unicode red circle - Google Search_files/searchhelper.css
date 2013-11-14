@@ -1,0 +1,184 @@
+#evernoteResultStats {
+    position: relative;
+    width: 456px;
+    margin-bottom: 30px;
+}
+
+#evernoteResultStatsMessage {
+    padding: 0;
+    margin: 0;
+    background-color: #F6F6F6;
+    font-family: Helvetica;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#evernote-simsearch-header {
+    padding: 0;
+    background: linear-gradient(#F1F1F1, #E9E9E9);
+    border-bottom: 1px #E2E2E2 solid;
+    box-shadow: 0 1px 0 white, 0 -1px 0 #F5F5F5;
+    height: 39px;
+}
+
+.evernote-simsearch-branding img {
+    margin: 5px 10px;
+}
+
+#evernote-simsearch-disable {
+    font-size: 10px;
+    text-decoration: none;
+    float: right;
+    color: #69AB35;
+    line-height: 32px;
+}
+
+#evernote-simsearch-login {
+    margin: 5px 4px 0px 7px;
+    padding-bottom: 10px;
+}
+
+#evernote-simsearch-noNotes {
+    margin: 5px 4px 0px 7px;
+    display: none;
+    padding-bottom: 10px;
+}
+
+#evernote-simsearch-simSearchNotes {
+    padding: 6px 6px 0 6px;
+    position: relative;
+}
+
+#evernote-simsearch-margin {
+    width: 10px;
+    height: 100%;
+    background-color: #F6F6F6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.evernote-simsearch-noteSection {
+    width: 100%;
+    display: none;
+    margin-bottom: 11px;
+    position: relative;
+}
+
+.evernote-simsearch-noteSectionTitle {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial,Helvetica;
+    color: #ADACAC;
+    padding: 0 8px;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.evernote-simsearch-noteSectionNotes {
+    margin-top: 5px;
+    overflow-x: auto;
+    position: relative;
+}
+
+.evernote-simsearch-noteSectionShadow {
+    background-image: url("resource://evernote_images/simsearch_shadow.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 10px 182px;
+    width: 10px;
+    height: 182px;
+    position: absolute;
+    right: 4px;
+    z-index: 1000;
+    display: none;
+}
+
+#evernote-simsearch-account .evernote-simsearch-noteSectionShadow {
+    top: 22px;
+}
+
+#evernote-simsearch-library .evernote-simsearch-noteSectionShadow {
+    top: 22px;
+}
+
+#evernoteResultStatsMessage table {
+    border-collapse: collapse;
+}
+
+#evernoteResultStatsMessage .evernote-snippet-noteBlock {
+    border: 1px solid #E9E9E9;
+    margin: 0 4px;
+}
+
+.evernote-simsearch-grayText {
+    color: #ADADAD;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+}
+.evernote-simsearch-grayText a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#evernote-simsearch-closeSimSearch {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#evernote-simsearch-closeButton {
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    background-image: url("resource://evernote_images/simsearch_close_btn_normal.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 26px;
+    background-size: 25px 26px;
+}
+#evernote-simsearch-closeButton:active {
+    background-image: url("resource://evernote_images/simsearch_close_btn_pressed.png");
+}
+#evernote-simsearch-closeButton:hover {
+    background-image: url("resource://evernote_images/simsearch_close_btn_pressed.png");
+}
+
+#evernote-simsearch-closeOptions {
+    display: none;
+    position: relative;
+    top: 10px;
+    right: 40px;
+    z-index: 1000;
+    width: 193px;
+}
+#evernote-simsearch-closeOptions > ul {
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    text-align: left;
+    margin: 0;
+    padding: 2px 0;
+    font-size: 13px;
+    list-style-type: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+#evernote-simsearch-closeOptions > ul > li {
+    color: #747474;
+    padding: 8px 15px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+#evernote-simsearch-closeOptions > ul > li:hover {
+    color: #444;
+}
+#evernote-simsearch-closeOptions > ul > li.evernote-simsearch-divider {
+    padding: 0;
+    border-top: 1px solid #DCDCDC;
+    height: 0;
+}
