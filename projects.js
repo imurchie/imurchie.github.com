@@ -1,9 +1,9 @@
 $(function() {
   $("#rails_lite").on("click", function(event) {
-    event.preventDefault();
-    $('#myModal').modal({
-      remote: "https://github.com/imurchie/rails_lite"
-    });
+    // event.preventDefault();
+
+    $("#rails-lite-iframe").removeClass("hide");
+    $("#myModal").modal();
   });
 
   $("#active_record_lite").on("click", function(event) {
