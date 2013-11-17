@@ -90,3 +90,11 @@ ul#connect {
 span {
   color:#333;
 }
+
+ul {
+  list-style: none;
+}
+
+.projects {
+  margin-left: 20px;
+}
