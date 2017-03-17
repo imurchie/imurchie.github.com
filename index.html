@@ -1,85 +1,65 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Isaac Murchie | Open Source Engineer</title>
+        <meta name="description" content="Isaac is an open source engineer."/>
+        <meta name="author" content="Isaac Murchie"/>
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@imurchie"/>
+        <meta name="twitter:creator" content="@imurchie"/>
+        <meta property="og:url" content="http://imurchie.com/"/>
+        <meta property="og:title" content="Isaac Murchie: A Personal Site" />
+        <meta property="og:description" content="Isaac Murchie couldn't care less."/>
+        <meta property="og:image" content="./avatar.jpg"/>
+        <link rel="stylesheet" href="styles/simple-grid.min.css"/>
+        <link rel="stylesheet" href="styles/style.css"/>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <main class="container">
+            <header>
+                <figure>
+                    <img src="avatar.jpg"/>
+                </figure>
+                <h1>
+                    Isaac Murchie likes to do stuff.
+                </h1>
+            </header>
+            <section>
+                <h2>Who Is Isaac</h2>
+                <p>
+                    Isaac is a software engineer, lately mostly writing in
+                    JavaScript in the interest of mobile automation. He is a
+                    Senior Software Enginneer at <a href="saucelabs.com">Sauce
+                    Labs</a>. You can see stuff he's done on
+                    <a href="https://github.com/imurchie">his GitHub</a> though
+                    there is more in <a href="https://github.com/appium">Appium's</a>.
 
-	<title>Isaac Murchie—Personal Page</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="pragma" content="no-cache">
-	<meta name="robots" content="all">
-	<meta name="MSSmartTagsPreventParsing" content="true">
-	<meta http-equiv="imagetoolbar" content="false">
-	<link rel="shortcut icon" href="favicon.ico" >
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
-	<link href="./style.css" rel="stylesheet" type="text/css">
-	<!--[if IE]>
-	<meta http-equiv="refresh" content="0;url=http://www.timlum.com/index.php/bio/ie">
-	<![endif]-->
-	<script type="text/javascript">
-
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-1129143-2']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-	</script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./jquery.backstretch.js"></script>
-	<script type="text/javascript" src="./projects.js"></script>
-</head>
-
-<body>
-	<div id="header">
-		<h1>Isaac A. Murchie</h1>
-	</div>
-	<div id="about">
-		<p>Hi, I'm Isaac Murchie. I am a software engineer interested server-side web development, and in particular how computers can be harnessed to allow people to manage and disseminate their interests and the bodies of knowledge those interests generate.</p>
-
-		<p>I am a PhD candidate in Sanskrit poetry and poetics in the <a href="http://sseas.berkeley.edu/">Department of South and Southeast Asian Studies</a> at the <a href="http://www.berkeley.edu/index.html">University of California, Berkeley</a>. My dissertation, entitled "Crimes Against Aesthetics: Pattern Poetry (<it>Citra-kāvya</it>) in Sanskrit literary culture," looks at structural and algorithmic figures of speech as an evolving phenomenon in the Sanskrit literary world, and asks how these figures, which fundamentally contradict the dominant aesthetic theories of the day, affect what poetry is and how it is approached.</p>
-
-		<p>I have some interesting projects out there:
-			<ul class="projects">
-				<li><a href="http://imurchie.com/rails_lite/">Rails Lite</a></li>
-				<li><a href="http://imurchie.com/active_record_lite/">ActiveRecord Lite</a></li>
-				<li><a href="http://imurchie.com/super-reads/">BiblioPile</a></li>
-			</ul>
-		</p>
-	</div>
-	<div>
-		<ul id="connect">
-			<li><a href="http://twitter.com/imurchie"><img src="./twitter.png"></a></li>
-			<li><a href="http://www.flickr.com/imurchie"><img src="./flickr.png"></a></li>
-			<li><a href="http://www.github.com/imurchie"><img src="./github.png"></a></li>
-			<li><a href="http://www.linkedin.com/pub/isaac-murchie/0/520/685"><img src="./linkedin.png"></a></li>
-			<li><a href="mailto:imurchie@gmail.com"><img src="./email.png"></a></li>
-		</ul>
-	</div>
-
-	<script type="text/javascript">
-		$.backstretch("./napa.jpg", {speed: 150});
-	</script>
-
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-      	<div id="rails-lite-iframe" class="hide">
-	      	<iframe id="data-frame" src="https://github.com/imurchie/rails_lite" width="100%" height="100%"></iframe>
-	      </div>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-</body>
+                    Physically, Isaac is generally in New York City, drinking
+                    coffee and petting his cat.
+                </p>
+            </section>
+            <section>
+                <h2>How To Contact Isaac</h2>
+                <p>
+                    Want to get in touch with Isaac about something?
+                </p>
+            </section>
+            <section>
+                <h2>Where To Find Isaac Online</h2>
+                <p>
+                    <a href="https://twitter.com/imurchie">Twitter</a><br/>
+                    <a href="https://instagram.com/imurchie">Instagram</a><br/>
+                    <a href="https://www.linkedin.com/in/imurchie/">LinkedIn</a>
+                </p>
+            </section>
+        </main>
+        <footer class="container">
+            <p> &copy; 2017 No one in particular </p>
+        </footer>
+    </body>
 </html>
