@@ -1,0 +1,30 @@
+<html lang="en-us"><head>
+    <title>Appium Pro Test Webpage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>
+
+</script>
+
+  </head>
+  <body>
+    <script>
+        document.onreadystatechange = function () {
+          if (document.readyState === "complete") {
+            var noClickLink = document.getElementById("noClickLink");
+            noClickLink.addEventListener("touchend", function () {
+                window.location.href = "https://appiumpro.com";
+            });
+          }
+        }
+    </script>
+    <h1>Appium Pro Test Webpage</h1>
+    <p>This page is used to demonstrate Appium's ability to test websites. Hooray for websites!</p>
+    <div id="somesuch"></div>
+    <h2>Weird Links</h2>
+    <p>Here is a link that won't respond to the 'click' event: <a id="noClickLink" href="javascript:void(0);">click me</a>.</p>
+    <p>Here is a link that, when clicked, will generate a JavaScript error: <a id="jsErrLink" href="javascript:void(0);" onclick="throw new Error('this is an error');">click me</a>.</p>
+
+
+</body></html>
